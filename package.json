@@ -1,0 +1,17 @@
+{
+  "name": "basicjs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "mocha test",
+    "coverage": "istanbul cover _mocha"
+  },
+  "dependencies": {
+    "co": "^4.6.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.5.3"
+  }
+}
